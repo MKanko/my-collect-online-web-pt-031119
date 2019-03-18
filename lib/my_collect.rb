@@ -8,7 +8,8 @@ def my_collect(collection)
   while item < collection.length
 
     modified_collection.push yield(collection[item])
-    binding.pry
+
     item += 1
   end
+binding.pry
 end
