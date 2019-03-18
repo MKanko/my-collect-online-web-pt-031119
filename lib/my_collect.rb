@@ -9,3 +9,6 @@ def my_collect(collection)
   end
   modified_collection
 end
+
+
+# modified_collection << yield(collection[item]) 
